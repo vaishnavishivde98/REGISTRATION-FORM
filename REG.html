@@ -1,0 +1,114 @@
+<html>
+<head>
+<title>REGISTRATION FORM</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+<body>
+
+<div class="block">
+<form>
+
+<h1>REGISTRATION FORM </h1>
+<fieldset>  
+
+
+<legend>User Information:</legend>  
+    
+<label for="name">Enter name</label><br>
+<input type="text" id="name" name="name" placeholder="enter name" required><br>  <br>
+             
+
+<label for="pass">Enter Password</label> <br>
+<input type="Password" id="pass" name="pass" placeholder="enter password" required><br>  <br>
+             
+ 
+
+<div>
+<label>EMAIL</label><br>
+<input type="email" name="username" placeholder="enter mail id" > 
+</div><br>
+             
+
+
+<div>
+<label>AGE             </label><br>
+<input type="number" name="age" id="age"  > 
+</div><br>
+             
+
+<div>
+<label>
+PHN NO. (FORMAT: xxx-xxx-xxxx):</label><br>
+  <input type="tel" pattern="^\d{3}-\d{3}-\d{4}$" required >
+</div><br>
+
+
+
+   
+
+<div>
+<label>DOB</label><br>
+<input type="date" name="date" id="date" min="1" max="100" step="1"> 
+</div><br>
+             
+
+
+
+
+<div>
+<label for="gender">GENDER: </label> <br> 
+              <input type="radio" id="gender" name="gender" value="male"/>Male  
+              <input type="radio" id="gender" name="gender" value="female"/>Female <br/>  
+</div><br>
+             
+
+
+
+<div>
+DESCRIPTION:<br>
+<textarea rows="10" cols="20" placeholder="add discripton here"></textarea>
+</div>
+<br>
+
+
+STATUS:<br>
+   <input type="checkbox" id="single" name="single" value="single"/>  
+                 <label for="cricket">Single</label> <br>  
+              <input type="checkbox" id="married" name="married" value="married"/>  
+                 <label for="football">Married</label> <br>  <br>
+             
+<div>
+<label>UPLOAD PHOTO</label><br>
+<input type="file" name="file" id="file" > 
+</div><br>
+             
+
+<div>
+<label>URL</label><br>
+<input type="url" name="url" id="url" > 
+</div><br>
+             
+
+<!--
+<div>
+<label>COLOR</label><br>
+<input type="color" name="color" id="color" > 
+</div>
+-->
+
+<br><br>
+<button type="submit">SUBMIT</button>
+<button type="reset">RESET</button>
+
+
+
+</fieldset> 
+</form>
+</div>
+</body>
+</html>
+
+
+
+
